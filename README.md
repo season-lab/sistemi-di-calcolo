@@ -5,6 +5,7 @@ This repository contains class material and further code examples for the *Siste
 *Sistemi di Calcolo* is an undergraduate course required to earn a Bachelor of Science in Computer Engineering degree from Sapienza University of Rome.
 
 Instructors: Prof. Camil Demetrescu (A-O), Dr. Daniele Cono D'Elia (P-Z)
+
 Teaching Assistant: Dr. Emilio Coppa
 
 For more information have a look at the [course website](http://www.dis.uniroma1.it/~sc/) (in Italian).
