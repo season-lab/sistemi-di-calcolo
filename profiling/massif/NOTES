@@ -1,0 +1,5 @@
+To run the program under massif:
+valgrind --tool=massif --time-unit=B ./main
+
+To show the report:
+ms_print massif.out.<PID>
