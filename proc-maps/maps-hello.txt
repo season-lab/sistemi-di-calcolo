@@ -1,0 +1,15 @@
+08048000-08049000 r-xp 00000000 00:18 9822                               /media/sf_Courses/Sistemi di Calcolo/SC1/codice/2016-17/161117/hello
+08049000-0804a000 r--p 00000000 00:18 9822                               /media/sf_Courses/Sistemi di Calcolo/SC1/codice/2016-17/161117/hello
+0804a000-0804b000 rw-p 00001000 00:18 9822                               /media/sf_Courses/Sistemi di Calcolo/SC1/codice/2016-17/161117/hello
+09a5a000-09a7b000 rw-p 00000000 00:00 0                                  [heap]
+f759b000-f759c000 rw-p 00000000 00:00 0 
+f759c000-f7744000 r-xp 00000000 08:01 393955                             /lib/i386-linux-gnu/libc-2.19.so
+f7744000-f7746000 r--p 001a8000 08:01 393955                             /lib/i386-linux-gnu/libc-2.19.so
+f7746000-f7747000 rw-p 001aa000 08:01 393955                             /lib/i386-linux-gnu/libc-2.19.so
+f7747000-f774a000 rw-p 00000000 00:00 0 
+f7768000-f776c000 rw-p 00000000 00:00 0 
+f776c000-f776d000 r-xp 00000000 00:00 0                                  [vdso]
+f776d000-f778d000 r-xp 00000000 08:01 393957                             /lib/i386-linux-gnu/ld-2.19.so
+f778d000-f778e000 r--p 0001f000 08:01 393957                             /lib/i386-linux-gnu/ld-2.19.so
+f778e000-f778f000 rw-p 00020000 08:01 393957                             /lib/i386-linux-gnu/ld-2.19.so
+ffc74000-ffc95000 rw-p 00000000 00:00 0                                  [stack]
