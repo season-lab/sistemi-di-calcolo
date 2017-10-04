@@ -12,4 +12,7 @@ Comandi `gdb`:
 (gdb) clear mio_file.c:20 // per eliminare breakpoint su una locazione di riferimento
 (gdb) delete 1 // per eliminare il breakpoint contrassegnato come 1 da 'info break' 
 (gdb) finish // esegue fino al termine della funzione corrente
+(gdb) backtrace // elenco frame attivi
+(gdb) frame n // selezione frame (utile per ispezionare lo stato)
+(gdb) x/f addr // ispezionare dato ad indirizzo addr in base al formato f
 ```
