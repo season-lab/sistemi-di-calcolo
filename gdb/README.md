@@ -15,4 +15,5 @@ Comandi `gdb`:
 (gdb) backtrace // elenco frame attivi
 (gdb) frame n // selezione frame (utile per ispezionare lo stato)
 (gdb) x/f addr // ispezionare dato ad indirizzo addr in base al formato f
+(gdb) next // esegue una chiamata a funzione, bloccandosi dopo il suo ritorno
 ```
