@@ -1,5 +1,6 @@
 Comandi `gdb`:
 ```
+(gdb) start // si posiziona all'inizio del main
 (gdb) file <nome_eseguibile> // per caricare un eseguibile
 (gdb) run [<arg1> ...] // per lanciare l'esecuzione con eventuali argomenti
 (gdb) quit // per uscire da gdb (o CTRL-d)
@@ -16,8 +17,10 @@ Comandi `gdb`:
 (gdb) frame n // selezione frame (utile per ispezionare lo stato)
 (gdb) x/f addr // ispezionare dato ad indirizzo addr in base al formato f
 (gdb) next // esegue una chiamata a funzione, bloccandosi dopo il suo ritorno
-```
+
 Abbreviazioni:
 - print -> p
 - next -> n
 - cont -> c
+```
+
