@@ -17,6 +17,8 @@ Comandi `gdb`:
 (gdb) frame n // selezione frame (utile per ispezionare lo stato)
 (gdb) x/f addr // ispezionare dato ad indirizzo addr in base al formato f
 (gdb) next // esegue una chiamata a funzione, bloccandosi dopo il suo ritorno
+(gdb) where // mostra la posizione corrente nell'esecuzione
+(gdb) list // mostra il contenuto del file sorgente che contiene la funzione corrente
 
 Abbreviazioni:
 - print -> p
