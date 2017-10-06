@@ -5,7 +5,7 @@
 
 int main() {
 
-	int * buffer = calloc(sizeof(int) * LEN);
+	int * buffer = calloc(sizeof(int), LEN);
 	
 	int i;
 	for (i = 0; i < LEN; i++)
