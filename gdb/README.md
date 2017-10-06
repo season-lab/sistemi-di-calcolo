@@ -17,3 +17,7 @@ Comandi `gdb`:
 (gdb) x/f addr // ispezionare dato ad indirizzo addr in base al formato f
 (gdb) next // esegue una chiamata a funzione, bloccandosi dopo il suo ritorno
 ```
+Abbreviazioni:
+- print -> p
+- next -> n
+- cont -> c
