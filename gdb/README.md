@@ -9,7 +9,7 @@ Comandi `gdb`:
 (gdb) info break // per mostrare breakpoint attivi
 (gdb) cont // per riprendere l'esecuzione normalmente dopo un breakpoint
 (gdb) step // prosegue l'esecuzione di una singola istruzione
-(gdb) print x // stampa il contenuto della variabile x nello stack frame corrente
+(gdb) print x // stampa il contenuto della variabile x nello stack frame corrente (p/f per specificare formato: https://sourceware.org/gdb/onlinedocs/gdb/Output-Formats.html#Output-Formats)
 (gdb) clear mio_file.c:20 // per eliminare breakpoint su una locazione di riferimento
 (gdb) delete 1 // per eliminare il breakpoint contrassegnato come 1 da 'info break' 
 (gdb) finish // esegue fino al termine della funzione corrente
@@ -19,10 +19,14 @@ Comandi `gdb`:
 (gdb) next // esegue una chiamata a funzione, bloccandosi dopo il suo ritorno
 (gdb) where // mostra la posizione corrente nell'esecuzione
 (gdb) list // mostra il contenuto del file sorgente che contiene la funzione corrente
+(gdb) x/nfu addr // stampa il contenuto della memoria all'indirizzo indicato. n => repeat count (default: 1), f => formato ('x', 'd', 'u', 'o', 't', 'a', 'c', 'f', ‘s’), u => unit size ('b': 1, 'h': 2, 'w': 4, 'g': 8)
 
 Abbreviazioni:
 - print -> p
 - next -> n
 - cont -> c
+
+
+
 ```
 

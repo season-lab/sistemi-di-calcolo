@@ -1,6 +1,6 @@
 SRCS = $(wildcard *.c)
 PROGS = $(patsubst %.c,%,$(SRCS))
-CFLAGS = -g # -Wall
+CFLAGS = -g -m32 # -Wall
 CC = gcc
 all: $(PROGS)
 
